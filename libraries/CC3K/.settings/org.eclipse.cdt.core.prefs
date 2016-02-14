@@ -1,0 +1,12 @@
+eclipse.preferences.version=1
+environment/project/0.1299102972/ARDUINOBOARDNAME/delimiter=\:
+environment/project/0.1299102972/ARDUINOBOARDNAME/operation=replace
+environment/project/0.1299102972/ARDUINOBOARDNAME/value=Arduino_Uno
+environment/project/0.1299102972/ARDUINOBOARDVARIANT/delimiter=\:
+environment/project/0.1299102972/ARDUINOBOARDVARIANT/operation=replace
+environment/project/0.1299102972/ARDUINOBOARDVARIANT/value=standard
+environment/project/0.1299102972/ARDUINO_CORE_FOLDER/delimiter=\:
+environment/project/0.1299102972/ARDUINO_CORE_FOLDER/operation=replace
+environment/project/0.1299102972/ARDUINO_CORE_FOLDER/value=arduino
+environment/project/0.1299102972/append=true
+environment/project/0.1299102972/appendContributed=true

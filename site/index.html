@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<title>Arduino Control</title>
+<link rel="stylesheet" type="text/css" href="./res/css/default.css">
+<script src="./res/js/ard-int.js"></script>
+
+<!-- CLOCK TIME DISPLAY --!>
+<div class="fblk">
+  <span id="clock_day" class="btm">Monday</span>
+  <br>
+  <span id="clock_time" class="btm">12:34:56</span>
+</div>
+
+<!-- ALARM SETTINGS DISPLAY --!>
+<div class="fblk">
+  <span class="blbl">Alarms</span>
+  <div id="alarms" class="cntr">
+    <div class="acell" data-alarm-index="0">
+      <span class="albl">Alarm #0</span><br>
+      <span class="atm">00:00:00</span><br>
+      <span class="aday doff">Sunday</span><br>
+      <span class="aday doff">Monday</span><br>
+      <span class="aday doff">Tuesday</span><br>
+      <span class="aday doff">Wednesday</span><br>
+      <span class="aday don">Thursday</span><br>
+      <span class="aday doff">Friday</span><br>
+      <span class="aday doff">Saturday</span><br>
+    </div>
+    <div class="acell" data-alarm-index="1">
+      <span class="albl">Alarm #1</span><br>
+      <span class="atm">00:00:00</span><br>
+      <span class="aday doff">Sunday</span><br>
+      <span class="aday doff">Monday</span><br>
+      <span class="aday doff">Tuesday</span><br>
+      <span class="aday doff">Wednesday</span><br>
+      <span class="aday doff">Thursday</span><br>
+      <span class="aday doff">Friday</span><br>
+      <span class="aday doff">Saturday</span><br>
+    </div>
+    <div class="acell" data-alarm-index="2">
+      <span class="albl">Alarm #2</span><br>
+      <span class="atm">00:00:00</span><br>
+      <span class="aday doff">Sunday</span><br>
+      <span class="aday doff">Monday</span><br>
+      <span class="aday doff">Tuesday</span><br>
+      <span class="aday doff">Wednesday</span><br>
+      <span class="aday doff">Thursday</span><br>
+      <span class="aday doff">Friday</span><br>
+      <span class="aday doff">Saturday</span><br>
+    </div>
+    <div class="acell" data-alarm-index="3">
+      <span class="albl">Alarm #3</span><br>
+      <span class="atm">00:00:00</span><br>
+      <span class="aday doff">Sunday</span><br>
+      <span class="aday doff">Monday</span><br>
+      <span class="aday doff">Tuesday</span><br>
+      <span class="aday doff">Wednesday</span><br>
+      <span class="aday doff">Thursday</span><br>
+      <span class="aday doff">Friday</span><br>
+      <span class="aday doff">Saturday</span><br>
+    </div>
+  </div>
+</div>
+
+<!-- CLOCK CONTROLS --!>
+<div class="fblk">
+  <span class="blbl">Clcok Controls</span>
+  <form id="clock_control">
+    <input type="button" id="clock_set" value="Set">
+    <input type="button" id="clock_refresh" value="Refresh">
+  </form>
+</div>
+
+<!-- ALARM CONTROLS --!>
+<div class="fblk">
+  <span class="blbl">Alarm Controls</span>
+  <form id="alarm_control">
+    <div class="actl-group">
+      <fieldset class="blbl">
+        <legend>Alarm Number</legend>
+        <label for="alarm_index">#</label>
+        <input type="number" id="alarm_index" value=0 min=0 max=3>
+      </fieldset>
+    </div>
+    <div class="actl-group">
+      <fieldset class="blbl">
+          <legend>Time</legend>
+        <div>
+          <label for="alarm_hour">H:</label>
+          <input type="number" id="alarm_hour" value=0 min=0 max=23>
+        </div>
+        <div>
+          <label for="alarm_minute">M:</label>
+          <input type="number" id="alarm_minute" value=0 min=0 max=59>
+        </div>
+        <div>
+          <label for="alarm_second">S:</label>
+          <input type="number" id="alarm_second" value=0 min=0 max=59>
+        </div>
+      </fieldset>
+    </div>
+    <div class="actl-group">
+      <fieldset class="blbl">
+        <legend>Days</legend>
+          <div class="cbday">
+            <input type="checkbox" name="alarm_day" value="0x01">
+            <span class="cbday">Sunday</span>
+          </div>
+          <div class="cbday">
+            <input type="checkbox" name="alarm_day" value="0x02">
+            <span class="cbday">Monday</span>
+          </div>
+          <div class="cbday">
+            <input type="checkbox" name="alarm_day" value="0x04">
+            <span class="cbday">Tuesday</span>
+          </div>
+          <div class="cbday">
+            <input type="checkbox" name="alarm_day" value="0x08">
+            <span class="cbday">Wednesday</span>
+          </div>
+          <div class="cbday">
+            <input type="checkbox" name="alarm_day" value="0x10">
+            <span class="cbday">Thursday</span>
+          </div>
+          <div class="cbday">
+            <input type="checkbox" name="alarm_day" value="0x20">
+            <span class="cbday">Friday</span>
+          </div>
+          <div class="cbday">
+            <input type="checkbox" name="alarm_day" value="0x40">
+            <span class="cbday">Saturday</span>
+          </div>
+      </fieldset>
+    </div>
+    <input type="button" id="alarm_set" value="Set">
+    <input type="button" id="alarm_refresh" value="Refresh">
+  </form>
+</div>
+
+
+
+
+

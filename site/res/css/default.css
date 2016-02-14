@@ -1,0 +1,92 @@
+
+body {
+  background-color:#000;
+}
+
+.btm {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 2em;
+  color: #fff;
+}
+
+.atm {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1.25em;
+  color: #fff;
+}
+
+.cbday {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 0.9em;
+  color: #ddd;
+}
+
+div.cbday {
+  text-align: left;
+  /* float: left; */
+}
+
+.aday {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1.1em;
+  /* color: #2e2; */
+}
+
+.don {
+  /* font-family: "Courier New", Courier, monospace; */
+  /* font-size: 1.1em; */
+  color: #2e2;
+}
+
+.doff {
+  /* font-family: "Courier New", Courier, monospace; */
+  /* font-size: 1.1em; */
+  color: #a42;
+}
+
+.albl {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1.5em;
+  color: #eee;
+}
+
+.blbl {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1.5em;
+  color: #fff;
+}
+
+.actl-group {
+  float: left;
+}
+
+.fblk {
+  text-align: center;
+  overflow: hidden;
+  /* width: 800px; */
+  background-color: #44c;
+  border: 6px inset #22a;
+  padding 2px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+.acell {
+  float: left;
+  text-align: center;
+  /* width: 100%;*/
+  border: 2px solid #eee;
+  padding: 20px;
+  margin: 8px;
+  position: relative;
+  left: -50%;
+}
+
+.cntr {
+  /* border: 1px solid #300;*/
+  float: left;
+  position: relative;
+  left: 50%;
+}
+
+

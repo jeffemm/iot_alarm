@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?>
+
+<cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+	<storageModule moduleId="org.eclipse.cdt.core.settings">
+		<cconfiguration id="0.1299102972">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="0.1299102972" moduleId="org.eclipse.cdt.core.settings" name="Default">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.MakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactName="${ProjName}" buildProperties="" description="" id="0.1299102972" name="Default" parent="org.eclipse.cdt.build.core.prefbase.cfg">
+					<folderInfo id="0.1299102972." name="/" resourcePath="">
+						<toolChain id="it.baeyens.avreclipse.toolchain.winavr.base.351392894" name="AVR-GCC Toolchain" superClass="it.baeyens.avreclipse.toolchain.winavr.base">
+							<option id="it.baeyens.avreclipse.toolchain.options.toolchain.objcopy.flash.1697100561" name="Generate HEX file for Flash memory" superClass="it.baeyens.avreclipse.toolchain.options.toolchain.objcopy.flash"/>
+							<option id="it.baeyens.avreclipse.toolchain.options.toolchain.objcopy.eeprom.1806336620" name="Generate HEX file for EEPROM" superClass="it.baeyens.avreclipse.toolchain.options.toolchain.objcopy.eeprom"/>
+							<option id="it.baeyens.avreclipse.toolchain.options.toolchain.objdump.1134144174" name="Generate Extended Listing (Source + generated Assembler)" superClass="it.baeyens.avreclipse.toolchain.options.toolchain.objdump"/>
+							<option id="it.baeyens.avreclipse.toolchain.options.toolchain.size.1642851864" name="Print Size" superClass="it.baeyens.avreclipse.toolchain.options.toolchain.size"/>
+							<option id="it.baeyens.avreclipse.toolchain.options.toolchain.avrdude.913870189" name="AVRDude" superClass="it.baeyens.avreclipse.toolchain.options.toolchain.avrdude"/>
+							<targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.ELF" id="it.baeyens.avreclipse.targetplatform.avr.767483509" name="AVR Cross-Target" osList="all" superClass="it.baeyens.avreclipse.targetplatform.avr"/>
+							<builder id="it.baeyens.avreclipse.target.builder.winavr.base.473242684" keepEnvironmentInBuildfile="false" managedBuildOn="false" name="AVR GNU Make Builder" superClass="it.baeyens.avreclipse.target.builder.winavr.base"/>
+							<tool id="it.baeyens.avreclipse.tool.assembler.winavr.base.1894136728" name="AVR Assembler" superClass="it.baeyens.avreclipse.tool.assembler.winavr.base">
+								<inputType id="it.baeyens.avreclipse.tool.assembler.input.426689662" superClass="it.baeyens.avreclipse.tool.assembler.input"/>
+							</tool>
+							<tool id="it.baeyens.avreclipse.tool.compiler.winavr.base.210907561" name="AVR Compiler" superClass="it.baeyens.avreclipse.tool.compiler.winavr.base">
+								<option id="it.baeyens.avreclipse.compiler.option.incpath.1574580352" name="Include Paths (-I)" superClass="it.baeyens.avreclipse.compiler.option.incpath" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ARDUINOBOARDNAME}/${ARDUINO_CORE_FOLDER}}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ARDUINOBOARDNAME}/${ARDUINOBOARDVARIANT}}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/leonardo_test}&quot;"/>
+								</option>
+								<option id="it.baeyens.avreclipse.compiler.option.def.1490844591" name="Define Syms (-D)" superClass="it.baeyens.avreclipse.compiler.option.def" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="__IN_ECLIPSE__=1"/>
+									<listOptionValue builtIn="false" value="&quot;ARDUINO=${ARDUINO_IDE_VERSION}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;USB_PID=${ARDUINO_PID_VALUE}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;USB_VID=${ARDUINO_VID_VALUE}&quot;"/>
+								</option>
+								<inputType id="it.baeyens.avreclipse.compiler.winavr.input.405402126" name="C Source Files" superClass="it.baeyens.avreclipse.compiler.winavr.input"/>
+							</tool>
+							<tool id="it.baeyens.avreclipse.tool.cppcompiler.base.39916795" name="AVR C++ Compiler" superClass="it.baeyens.avreclipse.tool.cppcompiler.base">
+								<option id="it.baeyens.avreclipse.cppcompiler.option.incpath.1292066707" name="Include Paths (-I)" superClass="it.baeyens.avreclipse.cppcompiler.option.incpath" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ARDUINOBOARDNAME}/${ARDUINO_CORE_FOLDER}}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ARDUINOBOARDNAME}/${ARDUINOBOARDVARIANT}}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/leonardo_test}&quot;"/>
+								</option>
+								<option id="it.baeyens.avreclipse.cppcompiler.option.def.2004611806" name="Define Syms (-D)" superClass="it.baeyens.avreclipse.cppcompiler.option.def" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="__IN_ECLIPSE__=1"/>
+									<listOptionValue builtIn="false" value="&quot;USB_VID=${ARDUINO_VID_VALUE}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;USB_PID=${ARDUINO_PID_VALUE}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;ARDUINO=${ARDUINO_IDE_VERSION}&quot;"/>
+								</option>
+								<inputType id="it.baeyens.avreclipse.cppcompiler.input.1475350492" superClass="it.baeyens.avreclipse.cppcompiler.input"/>
+							</tool>
+							<tool id="it.baeyens.avreclipse.tool.linker.winavr.base.1497805401" name="AVR C Linker" superClass="it.baeyens.avreclipse.tool.linker.winavr.base"/>
+							<tool id="it.baeyens.avreclipse.tool.cpplinker.base.802682630" name="AVR C++ Linker" superClass="it.baeyens.avreclipse.tool.cpplinker.base"/>
+							<tool id="it.baeyens.avreclipse.tool.archiver.winavr.base.1546661495" name="AVR Archiver" superClass="it.baeyens.avreclipse.tool.archiver.winavr.base"/>
+						</toolChain>
+					</folderInfo>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+	</storageModule>
+	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+		<project id="CC3K.null.1785976639" name="CC3K"/>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
+	<storageModule moduleId="refreshScope"/>
+	<storageModule moduleId="scannerConfiguration">
+		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		<scannerConfigBuildInfo instanceId="0.1299102972;0.1299102972.">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="it.baeyens.avreclipse.core.AVRGCCManagedMakePerProjectProfileC"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="0.1299102972;0.1299102972.;it.baeyens.avreclipse.tool.compiler.winavr.base.210907561;it.baeyens.avreclipse.compiler.winavr.input.405402126">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="it.baeyens.avreclipse.core.AVRGCCManagedMakePerProjectProfileC"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="it.baeyens.avreclipse.toolchain.winavr.base.1493100393;it.baeyens.avreclipse.toolchain.winavr.base.1493100393.115845745">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="it.baeyens.avreclipse.core.AVRGCCManagedMakePerProjectProfileC"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="it.baeyens.avreclipse.toolchain.winavr.base.1493100393;it.baeyens.avreclipse.toolchain.winavr.base.1493100393.115845745;it.baeyens.avreclipse.tool.compiler.winavr.base.1760945473;it.baeyens.avreclipse.compiler.winavr.input.1629779062">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="it.baeyens.avreclipse.core.AVRGCCManagedMakePerProjectProfileC"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="0.1299102972">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="it.baeyens.avreclipse.toolchain.winavr.base.1493100393;it.baeyens.avreclipse.toolchain.winavr.base.1493100393.115845745;it.baeyens.avreclipse.tool.cppcompiler.base.1088322419;it.baeyens.avreclipse.cppcompiler.input.1744514882">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="it.baeyens.avreclipse.core.AVRGCCManagedMakePerProjectProfileCPP"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="0.1299102972;0.1299102972.;it.baeyens.avreclipse.tool.cppcompiler.base.39916795;it.baeyens.avreclipse.cppcompiler.input.1475350492">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="it.baeyens.avreclipse.core.AVRGCCManagedMakePerProjectProfileCPP"/>
+		</scannerConfigBuildInfo>
+	</storageModule>
+</cproject>
